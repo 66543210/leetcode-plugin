@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "leetcodehidehard",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "隐藏力扣的难度/通过率等显示",
     "icons": {
         "16": "icons/icon16.png",
@@ -20,8 +20,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://leetcode-cn.com/problems/*",
-                "https://leetcode-cn.com/problemset/all/*"
+                "https://leetcode.cn/problems/*",
+                "https://leetcode.cn/problemset/all/*"
             ],
             "js": [
                 "js/index.js"
